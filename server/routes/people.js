@@ -23,3 +23,7 @@ router.get("/people/:name/lookup", (req, res) => {
 });
 
 module.exports = router;
+
+// predictions:
+//  all start with /people    
+// url /people + routers path with proper request type
